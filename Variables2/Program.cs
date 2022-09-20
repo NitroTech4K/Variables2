@@ -20,8 +20,11 @@ namespace Variables2
 
             int score; // declaration -- declaire "Score" as an intiger.
             score = 0; //initialization -- Init. "Score" to be 0.
-            Console.WriteLine("Score: " + score);
+            int enemiePoints;
+            enemiePoints = 69;
             score = 1000000;
+            score = score + enemiePoints;
+           
             Console.WriteLine("Score: " + score); //display score
             
 
